@@ -1,0 +1,54 @@
+@import "reset.css";
+
+.userRegistration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 2px;
+    min-width: 300px;
+    max-width: 30%;
+    background: #000F79;
+    border-radius: 5px;
+
+
+}
+.controlElements {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: white 1px dashed;
+
+}
+
+.controlElements input{
+    margin: 10px;
+}
+
+h2{
+    margin: 2em;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    color: white;
+    text-transform: uppercase;
+}
+
+.userHelpers{
+    display: flex;
+
+   justify-content: space-around;
+    align-content: stretch;
+align-items: center;
+    color: silver;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+
+}
+span, a{
+    color: silver;
+    font-size: 14px;
+    margin: 10px;
+}
